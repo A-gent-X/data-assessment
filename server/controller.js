@@ -21,18 +21,20 @@ module.exports = {
     },
 
 // -----------------------------------------------------------------
+
+
     getComment: (req, res) => {
-        const comment = ["It does not matter how slowly you go as long as you do not stop", "Know they self, know they enemy. A thousand battles, a thousand victories.", "To live is to suffer, to survive is to find some meaning in the suffering."];
+        
+      const comment = "Thank you for Subscribing!"
+        // let randomIndex = Math.floor(Math.random() * comment.length);
+        // let randomComment = comment[randomIndex];
 
-        let randomIndex = Math.floor(Math.random() * comment.length);
-        let randomComment = comment[randomIndex];
-
-        res.status(200).send(randomComment);
+        res.status(200).send(comment);
     },
 
 // -----------------------------------------------------------------
     getForm: (req, res) => {
-    const nameGenerater = ["It does not matter how slowly you go as long as you do not stop", "Know they self, know they enemy. A thousand battles, a thousand victories.", "To live is to suffer, to survive is to find some meaning in the suffering."];
+    const nameGenerater = ["Joely", "Alissa", "Oliver", "Senghort", "Suaden", "Jared", "Ilyass", "Ann", "Atlas", "Spencer", "Robert", "Tanner", "Timmy", "Olu", "Alex"];
 
     let randomIndex = Math.floor(Math.random() * nameGenerater.length);
     let randomForm = nameGenerater[randomIndex];

@@ -9,7 +9,7 @@ app.use(express.json());
 
 const { getCompliment, getFortune, getComment, getForm} = require('./controller')
 
-app.get("/api/clientform", getForm)
+app.get("/api/clientform", getForm);
 
 app.get("/api/placeholder", getComment);
 

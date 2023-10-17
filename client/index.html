@@ -9,9 +9,10 @@
     <a href=""><h2>Lit App</h2></a>
     <h1>Welcome</h1>
     <section class="innerDivSection">
-      <label class="label" for="fname">Sub:</label>
-      <input id="placeHolder" text="Text" placeholder="Insert Comment">
-      <button id="placeHolderButton">Submit</button>
+      <input id="placeHolder" text="Text" placeholder="email" maxlength="10">
+      <input id="btnOne" type="button" value="Submit">
+        <br>
+      <p class="display-result"></p>
     </section>
   </div>
   </header>
@@ -24,16 +25,14 @@
 <br>
     <button id="fortuneButton">Get a Fortune</button>
 <br>
-    <div class="joinTogether">
-  </div>
 <br>
 <p>Let us get to know you!</p>
-    <form class="clientForm" action="/action_page.php" method="get">
+    <form id="clientForm">
       <label for="fname">First name:</label>
       <input type="text" id="fname" name="fname"><br><br>
       <label for="lname">Last name:</label>
       <input type="text" id="lname" name="lname"><br><br>
-      <input type="submit" value="Submit">
+      <input type="submit" id="fbutton" value="Submit">
     </form>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="main.js"></script>

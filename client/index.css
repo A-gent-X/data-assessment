@@ -68,3 +68,8 @@ p{
   background-color: #c7d59f;
 }
 
+.display-result{
+  border: solid 2px black;
+  height: 20px;
+  border-radius: 5px;
+}
