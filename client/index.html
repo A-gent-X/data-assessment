@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css">
+    <title>Back End Assessment</title>
+  </head>
+  <header>
+    <div class="headerContainer">
+    <a href=""><h2>Lit App</h2></a>
+    <h1>Welcome</h1>
+    <section class="innerDivSection">
+      <label class="label" for="fname">Sub:</label>
+      <input id="placeHolder" text="Text" placeholder="Insert Comment">
+      <button id="placeHolderButton">Submit</button>
+    </section>
+  </div>
+  </header>
+  <body class="container">
+    <div class="bigInsideContainer">
+    <div class="insideContainer">
+      <h3>Thank you for your visit!</h3>
+      <h4>Recieve a compliment or reveal your fortune</h4>
+    <button id="complimentButton">Get a compliment</button>
+<br>
+    <button id="fortuneButton">Get a Fortune</button>
+<br>
+    <div class="joinTogether">
+  </div>
+<br>
+<p>Let us get to know you!</p>
+    <form class="clientForm" action="/action_page.php" method="get">
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname"><br><br>
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname"><br><br>
+      <input type="submit" value="Submit">
+    </form>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
+

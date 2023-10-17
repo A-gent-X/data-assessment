@@ -1,0 +1,70 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('https://news.harvard.edu/wp-content/uploads/2022/11/081022_Harvard_Forest_54.jpg');
+  position: relative;
+}
+
+.headerContainer{
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  background-color: #053225;
+}
+
+h1, h2, .label{
+  color: #60A561;
+}
+
+.label{
+  font-weight: bold;
+}
+
+#fortuneButton:hover, #complimentButton:hover{
+  color: #60A561;
+  background-color: #053225;
+  transition: 1s;
+  border-radius: 5px;
+  box-shadow: 2px 1px 1px black;
+}
+
+#fortuneButton, #complimentButton{
+  box-shadow: 2px 1px 1px black;
+}
+
+h3{
+  text-decoration: double overline;
+}
+
+h4{
+  text-decoration: double overline;
+}
+
+p{
+  font-weight: bold;
+}
+
+.bigInsideContainer{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.insideContainer{
+  border: solid 3px black;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 100px;
+  border-radius: 10px;
+  background-color: #c7d59f;
+}
+
